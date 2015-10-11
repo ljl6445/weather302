@@ -258,7 +258,7 @@ char post[]={//提交数据包
     "POST /v1.0/device/15248/sensor/aaaaa/datapoints HTTP/1.1\r\n"
     "Host: api.yeelink.net\r\n"
     "Accept: */*\r\n"
-    "U-ApiKey: b97ac84fe6527bde9ecc20f251552faa\r\n"
+    "U-ApiKey: ***\r\n"
     "Content-Length: dt\r\n"
     "Content-Type: application/x-www-form-urlencoded\r\n"
     "Connection: close\r\n"
@@ -270,7 +270,7 @@ char post[]={//提交数据包
     "POST /v1.0/device/15248/sensor/aaaaa/datapoints HTTP/1.1\r\n"
     "Host: api.yeelink.net\r\n"
     "Accept: */*\r\n"
-    "U-ApiKey: b97ac84fe6527bde9ecc20f251552faa\r\n"
+    "U-ApiKey: ***\r\n"
     "Content-Length: dt\r\n"
     "Content-Type: application/x-www-form-urlencoded\r\n"
     "Connection: close\r\n"
@@ -466,7 +466,6 @@ void post_press() //发送压力数据
   Serial2.print("AT+CIPSHUT\r\n"); 
   delay(500);
  }
-
 
 
 
